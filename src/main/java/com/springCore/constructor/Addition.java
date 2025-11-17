@@ -11,8 +11,9 @@ public class Addition {
 	}
    
 	Addition(double a, double b){
-		this.a = a;
-		this.b=  b;
+		this.a = (int) a;
+		this.b=  (int) b;
+		
 		System.out.println("Double Constructor Called");
 	}
 	
