@@ -25,6 +25,12 @@ public class testLifeCycle {
 	
 	System.out.println(d);
 	
+	System.out.println("++++++++++++++++++++++++++++++++++++++++++++++");
+	
+	// Bean Life Cycle using the Annotation
+	Product p = (Product) context.getBean("p1");
+	
+	System.out.println(p);
 	
 		
 	}

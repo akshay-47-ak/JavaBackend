@@ -12,6 +12,8 @@
 
 
 
+    <context:annotation-config/>
+
 <bean class="com.springCore.lifeCycle.Office" name="o1" init-method="init" destroy-method="destroy">
  
  <property name="dept" value="PADM" />
@@ -25,6 +27,12 @@
 
 </bean>	
 	
+	
+	<bean class = "com.springCore.lifeCycle.Product" name="p1">
+	 
+	 <property name="pName" value="Jwelo"/>
+	  
+	</bean>
 	
 	
 </beans>
