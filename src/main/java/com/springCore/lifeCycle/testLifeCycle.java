@@ -13,12 +13,14 @@ public class testLifeCycle {
 	
 	context.registerShutdownHook();
 	
+	// Bean Life Cycle using XML
 	Office of = (Office) context.getBean("o1");
 	
 	System.out.println(of);
 	
 	System.out.println("++++++++++++++++++++++++++++++++++++++++++++++");
 	
+	//Bean Life Cycle using Interface
 	Department d = (Department) context.getBean("d1");
 	
 	System.out.println(d);

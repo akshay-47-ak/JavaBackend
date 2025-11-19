@@ -27,13 +27,13 @@ public class Department implements InitializingBean ,DisposableBean{
 
 	@Override
 	public void destroy() throws Exception {
-	  System.out.println("Bean Initialised");
+	  System.out.println("Bean Distroyed");
 		
 	}
 
 	@Override
 	public void afterPropertiesSet() throws Exception {
-		System.out.println("Bean Disposed or Destroyed");
+		System.out.println("Bean Initialised");
 		
 	}
 	
