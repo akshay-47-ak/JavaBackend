@@ -18,6 +18,13 @@
 
 </bean>
 	
+
+<bean class="com.springCore.lifeCycle.Department" name="d1">
+
+  <property name="name" value="Infinity"/>
+
+</bean>	
+	
 	
 	
 </beans>
