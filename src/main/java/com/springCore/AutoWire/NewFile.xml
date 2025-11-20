@@ -12,7 +12,7 @@
 
    
 	
-  <bean class="com.springCore.AutoWire.Address" name="address">
+  <bean class="com.springCore.AutoWire.Address" name="address123">
         	<property name="city" value="akluj" />
             <property name="road" value="ambedkarRoad"/>
   </bean>
