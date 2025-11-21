@@ -5,8 +5,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 
 public class Emp1 {
     
-	@Autowired
-	@Qualifier("team1")
+
 	private Team team;
 	
 	private String name;
@@ -26,16 +25,13 @@ public class Emp1 {
 	public void setName(String name) {
 		this.name = name;
 	}
-
-	public Emp1(String Name, Team team) {
-		this.name= Name;
+	@Autowired
+	public Emp1(@Qualifier("team1") Team team) {
+		super();
 		this.team = team;
 	}
 
-	public Emp1() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
+
 
 	@Override
 	public String toString() {
