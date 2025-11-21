@@ -1,10 +1,12 @@
 package com.springCore.AutoWire.annotation;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 
 public class Emp1 {
     
 	@Autowired
+	@Qualifier("team1")
 	private Team team;
 	
 	private String name;

@@ -18,6 +18,12 @@
 	  
 	  </bean>
    
+   
+    <bean class="com.springCore.AutoWire.annotation.Team" name="team1">
+	   
+	   <property name="name" value="DearDevils"/>
+	  
+	  </bean>
         
        <bean class="com.springCore.AutoWire.annotation.Emp1" name="emp1">
        
